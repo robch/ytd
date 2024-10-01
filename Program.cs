@@ -114,7 +114,15 @@ public static class Program
     {
         if (e.Result.Reason == ResultReason.RecognizedSpeech && !string.IsNullOrEmpty(e.Result.Text))
         {
+            // append the new text
             transcript += e.Result.Text + "\n";
+
+            // erase the last line
+            Console.CursorLeft = 0;
+            Console.Write(new string(' ', Console.WindowWidth - 1));
+
+            // print the new text
+            Console.CursorLeft = 0;
             Console.WriteLine($"{e.Result.Text}\n");
         }
     }
