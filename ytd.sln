@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ytd", "ytd.csproj", "{B56F8001-1D1F-F241-4155-F4D1DA46B1D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B56F8001-1D1F-F241-4155-F4D1DA46B1D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B56F8001-1D1F-F241-4155-F4D1DA46B1D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B56F8001-1D1F-F241-4155-F4D1DA46B1D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B56F8001-1D1F-F241-4155-F4D1DA46B1D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A12D075-8165-422F-81D6-3C234DAF79BA}
+	EndGlobalSection
+EndGlobal
